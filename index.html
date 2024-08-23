@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+   
+<script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h4>{ Front <span>End</span> }</h4>
+      <span class="toggle-button">&#9776;</span>
+      <ul class="lg-nav">
+        <li><a href="#">Tutorials</a></li>
+        <li><a href="#">Exercices</a></li>
+        <li><a href="#">Quizzes</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="sm-nav">
+        <span class="close-button">&times;</span>
+        <li><a href="#">Tutorials</a></li>
+        <li><a href="#">Exercices</a></li>
+        <li><a href="#">Quizzes</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <h1>learn, design and create your own masterpiece</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem rerum
+        reiciendis illo suscipit quaerat. Ut culpa earum nam libero inventore.
+      </p>
+      <a href="#">Get started</a>
+    </main>
+    <div class="container">
+      <div class="content">
+        <h6>What we offer</h6>
+        <h4>Our Latest Tutorials</h4>
+        <div class="icons">
+          <div
+            class="icon-title html"
+            
+            >
+            <span
+            onmouseover="showhtml(); hidecss(); hidejs()"
+            onclick="showhtml(); hidecss(); hidejs()"
+            >html</span>
+            <h5>Html</h5>
+          </div>
+          <div
+            class="icon-title css"
+            
+            >
+            <span
+            onmouseover="showcss(); hidehtml(); hidejs()"
+            onclick="showcss(); hidehtml(); hidejs()"
+            >css</span>
+            <h5>Css</h5>
+          </div>
+          <div
+          class="icon-title js"
+          
+          >
+          <span
+          onmouseover="showjs(); hidecss(); hidehtml()"
+          onclick="showjs(); hidecss(); hidehtml()"
+            >js</span>
+            <h5>JavaScript</h5>
+          </div>
+        </div>
+      </div>
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 0 1440 590"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <path
+          d="M 0,600 L 0,262 C 109.53110047846889,262.2775119617225 219.06220095693777,262.555023923445 310,247 C 400.9377990430622,231.44497607655504 473.28229665071785,200.05741626794256 567,215 C 660.7177033492821,229.94258373205744 775.8086124401913,291.2153110047847 867,291 C 958.1913875598087,290.7846889952153 1025.4832535885168,229.08133971291866 1117,214 C 1208.5167464114832,198.91866028708134 1324.2583732057415,230.45933014354068 1440,262 L 1440,600 L 0,600 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#210454e5"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-1"
+        ></path>
+        <path
+          d="M 0,600 L 0,412 C 113.15789473684208,413.61722488038276 226.31578947368416,415.23444976076553 323,406 C 419.68421052631584,396.76555023923447 499.8947368421053,376.6794258373206 597,388 C 694.1052631578947,399.3205741626794 808.1052631578947,442.04784688995215 908,439 C 1007.8947368421053,435.95215311004785 1093.6842105263158,387.1291866028708 1180,375 C 1266.3157894736842,362.8708133971292 1353.157894736842,387.43540669856463 1440,412 L 1440,600 L 0,600 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#fff"
+          fill-opacity="0.8"
+          class="transition-all duration-300 ease-in-out delay-150 path-2"
+        ></path>
+      </svg>
+    </div>
+    <div
+      class="cards card-html"
+      id="html"
+      onmouseleave="hidehtml()"
+    >
+      <svg
+        class="html-logo"
+        fill="none"
+        height="2500"
+        width="2183"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 124 141.53199999999998"
+      >
+        <path
+          d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z"
+          fill="#e34f26"
+        />
+        <path
+          d="M62.468 129.277V12.085l51.064.17-9.106 104.851z"
+          fill="#ef652a"
+        />
+        <path
+          d="M99.49 41.362l1.446-15.49H22.383l4.34 47.49h54.213L78.81 93.617l-17.362 4.68-17.617-5.106-.936-12.085H27.319l2.128 24.681 32 8.936 32.255-8.936 4.34-48.17H41.107L39.49 41.362z"
+          fill="#fff"
+        />
+      </svg>
+
+      <h2>HTML</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+      <a href="#">Tutorials</a>
+      <a href="#">Exercices</a>
+      <a href="#">Quizzes</a>
+    </div>
+    <div
+      class="cards card-css"
+      id="css"
+      onmouseleave="hidecss()"
+    >
+      <svg
+        class="css-logo"
+        fill="none"
+        height="2500"
+        width="2183"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 124 141.53"
+      >
+        <path
+          d="M10.383 126.892L0 0l124 .255-10.979 126.637-50.553 14.638z"
+          fill="#1b73ba"
+        />
+        <path
+          d="M62.468 129.275V12.085l51.064.17-9.106 104.85z"
+          fill="#1c88c7"
+        />
+        <path
+          d="M100.851 27.064H22.298l2.128 15.318h37.276l-36.68 15.745 2.127 14.808h54.043l-1.958 20.68-18.298 3.575-16.595-4.255-1.277-11.745H27.83l2.042 24.426 32.681 9.106 31.32-9.957 4-47.745H64.765l36.085-14.978z"
+          fill="#fff"
+        />
+      </svg>
+
+      <h2>CSS</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+      <a href="#">Tutorials</a>
+      <a href="#">Exercices</a>
+      <a href="#">Quizzes</a>
+    </div>
+    <div
+      class="cards card-js"
+      id="js"
+      onmouseleave="hidejs()"
+    >
+      <svg
+        class="js-logo"
+        fill="none"
+        height="2500"
+        width="2183"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 124 141.53199999999998"
+      >
+        <path
+          d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z"
+          fill="#e9ca32"
+        />
+        <path
+          d="M62.468 129.277V12.085l51.064.17-9.106 104.851z"
+          fill="#ffde25"
+        />
+        <g fill="#fff">
+          <path
+            d="M57 26H43.5v78L33 102V91.5l-12.5-2V113l36.5 9.5zM67.127 26H104.5L102 40.95H81.394v24.533H102L99.5 115l-32.373 7.5V107L89 99.5 90.263 79l-23.136 3.35z"
+          />
+        </g>
+      </svg>
+
+      <h2>JAVASCRIPT</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+      <a href="#">Tutorials</a>
+      <a href="#">Exercices</a>
+      <a href="#">Quizzes</a>
+    </div>
+
+
+    <script>
+
+// Event listeners for icons
+document.querySelectorAll('.icons span').forEach(function(icon) {
+  icon.addEventListener('click', function(event) {
+    // Prevent the global click event from hiding the card
+    event.stopPropagation();
+
+    // Toggle the card related to the clicked icon
+    const cardId = event.target.getAttribute('data-target');
+    if (cardId) {
+      toggleCard(cardId);
+    }
+  });
+});
+
+    </script>
+  </body>
+</html>
